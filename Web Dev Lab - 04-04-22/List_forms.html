@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List and Forms</title>
+  </head>
+  <body>
+    <h2 style="color: chartreuse">Departments...</h2>
+    <ol>
+      <li>Computer Science and Engineering</li>
+      <li>Information Science and Engineering</li>
+      <li>Mechanical Engineering</li>
+      <li>Aeronautical Engineering</li>
+      <li>Electrical and Electronics Engineering</li>
+    </ol>
+
+    <h2>Forms...</h2>
+    <form>
+      <label>Name : </label>
+      <input type="text" />
+      <br />
+      <br />
+      <label>Phone Number :</label>
+      <input type="text" />
+      <br />
+      <br />
+      <label>Email :</label>
+      <input type="email" id="email" name="email" />
+      <input type="submit" />
+      <br />
+      <br />
+      <label> Choose branch : </label>
+      <input type="radio" id="html" name="fav_language" value="CSE" />
+        <label for="html">CSE</label>  
+      <input type="radio" id="css" name="fav_language" value="ISE" />  
+      <label for="css">ISE</label>
+       
+      <input type="radio" id="javascript" name="fav_language" value="MECH" />
+        <label for="javascript">MECH</label>
+      <input type="radio" id="javascript" name="fav_language" value="AERO" />
+        <label for="javascript">AERO</label>
+      <input type="radio" id="javascript" name="fav_language" value="EEE" />
+        <label for="javascript">EEE</label>
+      <br />
+      <br />
+
+      <label>Gender :</label>
+      <select name="gender" value="gender">
+        <option value="MALE">MALE</option>
+        <option value="FEMALE">FEMALE</option>
+        <option value="OTHERS">OTHERS</option>
+      </select>
+      <br />
+      <br />
+      <label> FEEDBACK :</label>
+      <br />
+
+      <textarea name="name" rows="10" cols="30"></textarea>
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
